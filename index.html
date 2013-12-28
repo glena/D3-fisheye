@@ -47,7 +47,7 @@
       .attr("height", size.height);
     
             
-    /* scales */      
+    /* scales, fixed */      
     var x = d3.scale.linear().range([0, size.width]);
     var y = d3.scale.linear().range([0, size.height]);
     var r = d3.scale.linear().range([0, size.width]);
@@ -57,6 +57,7 @@
         
     renderData(data);
       
+	/* Initialize the fisheye */
     var fisheye = d3.fisheye.circular()
       .radius(200)
       .distortion(10);
@@ -64,10 +65,13 @@
     svg.on("mousemove", function() {
       var mouse = d3.mouse(this);
     
+	   /*set the fisheye focus on the mouse position */
       fisheye.focus(mouse);
       
       circles.attr("transform", function(d) {
+			/* transform data based on radius and distortion */
           var fe = fisheye(d); 
+		  /* move the circle */
           return "translate(" + [x(fe.x), y(fe.y)] + ")";
       });
     });    
