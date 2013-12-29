@@ -3,7 +3,7 @@ D3-fisheye
 
 Playing with D3 and fisheye plugin.
 
-You can find the working demo on http://jsbin.com/OcABUwo/15 (and also play with the code :)).
+Check the working demo on http://rawgithub.com/glena/D3-fisheye/master/index.html
 
 Why?
 ----
