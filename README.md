@@ -11,4 +11,4 @@ Why?
 I am learning D3.js. This is the result of viewing the tutorial about fisheye of @enjalot (and also a little help of him). You can find the tutorial on http://vimeo.com/55189469
 
 
-[![Analytics](https://ga-beacon.appspot.com/UA-51467836-1/glena/D3-fisheye)](https://germanlena.com.ar)
+[![Analytics](https://ga-beacon.appspot.com/UA-51467836-1/glena/D3-fisheye)](http://germanlena.com.ar)
