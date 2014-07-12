@@ -11,6 +11,4 @@ Why?
 I am learning D3.js. This is the result of viewing the tutorial about fisheye of @enjalot (and also a little help of him). You can find the tutorial on http://vimeo.com/55189469
 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/glena/d3-fisheye/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
-[![Analytics](https://ga-beacon.appspot.com/UA-32429094-1/glena/D3-fisheye)](https://github.com/glena/D3-fisheye)
+[![Analytics](https://ga-beacon.appspot.com/UA-51467836-1/glena/D3-fisheye)](https://germanlena.com.ar)
